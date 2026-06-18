@@ -35,27 +35,31 @@ Você precisa ter o **JDK (Java Development Kit)** instalado em sua máquina (ve
 1. Baixe o arquivo `JogoDaVelha.java`.
 2. Abra o terminal na pasta onde o arquivo foi salvo.
 3. Compile o arquivo com o comando:
-   ```bash
-   javac JogoDaVelha.java
+   
+```bash
+javac JogoDaVelha.java
+```
 
-## Execute o jogo com o comando:
+### Execute o jogo com o comando:
 
 ```Bash
 java JogoDaVelha
 
 ```
-Método 2: Por uma IDE (VS Code, IntelliJ ou Eclipse)
-Abra o seu ambiente de desenvolvimento de preferência.
+### Método 2: Por uma IDE (VS Code, IntelliJ ou Eclipse)
 
-Crie um novo projeto Java ou importe o arquivo JogoDaVelha.java.
+1. Abra o seu ambiente de desenvolvimento de preferência.
 
-Certifique-se de que o arquivo está na pasta raiz de códigos (src).
+2. Crie um novo projeto Java ou importe o arquivo JogoDaVelha.java.
 
-Clique com o botão direito no código e selecione Run (Executar) a partir do método main.
+3. Certifique-se de que o arquivo está na pasta raiz de códigos (src).
 
-🛠️ Tecnologias Utilizadas
-Linguagem: Java
+4. Clique com o botão direito no código e selecione Run (Executar) a partir do método main.
 
-Interface Gráfica: javax.swing e java.awt
+## 🛠️ Tecnologias Utilizadas
 
-Arquitetura de Layout: CardLayout (para alternar telas), GridBagLayout (menu centralizado) e BorderLayout/GridLayout (tabuleiro e menus de jogo).
+- Linguagem: Java
+
+-  Interface Gráfica: javax.swing e java.awt
+
+- Arquitetura de Layout: CardLayout (para alternar telas), GridBagLayout (menu centralizado) e BorderLayout/GridLayout (tabuleiro e menus de jogo).
